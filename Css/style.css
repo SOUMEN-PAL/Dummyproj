@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background: url("/Images/wp4504931-grunge-aesthetic-wallpapers.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.container{
+    background-color: #5a5a7798;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#imag{
+    height: 90px;
+    width: 190px;
+
+}
+.button{
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #1b2144; 
+    text-align: center;
+    width: 60%;
+    margin-top: 15px;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    color: #fffada;
+    border: 2px solid #1b2144;
+    padding: 10px;
+}
+.button:hover{
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #1b2144; 
+    text-align: center;
+    width: 60%;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold;
+    color: #fffada;
+    padding: 10px;
+    
+}
+
+
+.container2>.words>#word{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.container2>.words>div{
+    text-align: center;
+    
+}
+.container2>.words>div>button{
+    width: 10%;
+    border-radius:10px;
+    border: none;
+
+}
+
+.container2>.words>div>button:hover{
+    background-color: #1b2144;
+    color: white;
+
+}
+
+.container2>.words>div>button>p{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Varela Round', sans-serif;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:1200px) {
+
+    .lg1,
+    .lg2,
+    .lg3,
+    .lg4,
+    .lg5,
+    .lg6,
+    .lg7,
+    .lg8,
+    .lg9,
+    .lg10,
+    .lg11,
+    .lg12 {
+        float: left;
+
+        /* border:1px solid green; */
+
+    }
+
+    .lg1 {
+        width: 8.33%;
+    }
+
+    .lg2 {
+        width: 16.665%;
+    }
+
+    .lg3 {
+        width: 25%;
+    }
+
+    .lg4 {
+        width: 33%;
+    }
+
+    .lg5 {
+        width: 41.66%;
+    }
+
+    .lg6 {
+        width: 50%;
+    }
+
+    .lg7 {
+        width: 58.33%;
+    }
+
+    .lg8 {
+        width: 66.66%;
+    }
+
+    .lg9 {
+        width: 74.99%;
+    }
+
+    .lg10 {
+        width: 83.33%;
+    }
+
+    .lg11 {
+        width: 91.66%;
+    }
+
+    .lg12 {
+        width: 100%;
+    }
+}
+
+/*******MEdium screen*******/
+@media(min-width:950px) and (max-width:1999px) {
+
+    .md1,
+    .md2,
+    .md3,
+    .md4,
+    .md5,
+    .md6,
+    .md7,
+    .md8,
+    .md9,
+    .md10,
+    .md11,
+    .md12 {
+        float: left;
+        /* border:1px solid green; */
+
+    }
+
+    .md1 {
+        width: 8.33%;
+    }
+
+    .md2 {
+        width: 16.665;
+    }
+
+    .md3 {
+        width: 25%;
+    }
+
+    .md4 {
+        width: 33%;
+    }
+
+    .md5 {
+        width: 41.66%;
+    }
+
+    .md6 {
+        width: 50%;
+    }
+
+    .md7 {
+        width: 58.33%;
+    }
+
+    .md8 {
+        width: 66.66%;
+    }
+
+    .md9 {
+        width: 74.99%;
+    }
+
+    .md10 {
+        width: 83.33%;
+    }
+
+    .md11 {
+        width: 91.66%;
+    }
+
+    .md12 {
+        width: 100%;
+    }
+
+}
+
+
+@media(max-width:949px) {
+
+    .sm1,
+    .sm2,
+    .sm3,
+    .sm4,
+    .sm5,
+    .sm6,
+    .sm7,
+    .sm8,
+    .sm9,
+    .sm10,
+    .sm11,
+    .sm12 {
+        float: left;
+
+    }
+
+    .sm1 {
+        width: 8.33%;
+    }
+
+    .sm2 {
+        width: 16.665%;
+    }
+
+    .sm3 {
+        width: 25%;
+    }
+
+    .sm4 {
+        width: 33%;
+    }
+
+    .sm5 {
+        width: 41.66%;
+    }
+
+    .sm6 {
+        width: 50%;
+    }
+
+    .sm7 {
+        width: 58.33%;
+    }
+
+    .sm8 {
+        width: 66.66%;
+    }
+
+    .sm9 {
+        width: 74.99%;
+    }
+
+    .sm10 {
+        width: 83.33%;
+    }
+
+    .sm11 {
+        width: 91.66%;
+    }
+
+    .sm12 {
+        width: 100%;
+    }
+
+}
+
+
+
+section{
+    clear: both;
+}
+
+
